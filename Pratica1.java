@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pratica01 {
+public class Pratica1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Este é um programa que lê 3 números inteiros a partir do teclado e apresenta o maior número, o menor número e a média aritmética entre eles");
