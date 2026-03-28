@@ -11,8 +11,8 @@ public class Pratica3 {
         b = teclado.nextDouble(); // Guarda o valor de B
         System.out.print("Digite o valor de C: ");
         c = teclado.nextDouble(); // Guarda o valor de C
-        primeiroGrau = (a * a) + b + c; // Calcula equação de primeiro grau
-        delta = (b * b) - 4 * a * c; // Calcula o delta separadamente da equação de segundo grau
+        primeiroGrau = (a ^ 2) + b + c; // Calcula equação de primeiro grau
+        delta = (b ^ 2) - 4 * a * c; // Calcula o delta separadamente da equação de segundo grau
         x1 = (-b + Math.sqrt((b * b) - 4 * a * c)) / (2 * a); // Equação de segundo grau com raíz positiva de delta
         x2 = (-b - Math.sqrt((b * b) - 4 * a * c)) / (2 * a); // Equação de segundo grau com raíz negativa de delta
         
