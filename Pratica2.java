@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pratica02 {
+public class Pratica2 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Este é um programa que simula uma máquina automatizada de venda de lanchinhos");
