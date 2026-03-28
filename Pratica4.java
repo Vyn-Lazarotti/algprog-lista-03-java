@@ -17,12 +17,12 @@ public class Pratica4 {
                 break;
             
             case 2:
-                double area = 3.141592 * (raio * raio);
+                double area = 3.141592 * (raio ^ 2);
                 System.out.println("Área do círculo: " + area);
                 break;
 
             case 3:
-                double volume = 4 / 3 * (3.141592 * (raio * raio * raio));
+                double volume = 4 / 3 * (3.141592 * (raio ^ 3));
                 System.out.print("Volume do círculo: " + volume);
                 break;
 
