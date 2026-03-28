@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Pratica03 {
+public class Pratica3 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Este é um programa simple que calcula uma equação de segundo grau");
