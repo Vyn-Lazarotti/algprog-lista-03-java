@@ -50,7 +50,9 @@ public class Pratica5 {
                 System.out.println("Potenciação selecionada!");
                 System.out.println("Digite o número: ");
                 numberOne = teclado.nextDouble();
-                double potencia = Math.pow(numberOne, 2);
+                System.out.println("Digite a potência: ");
+                double potencial = teclado.nextDouble();
+                double potencia = Math.pow(numberOne, potencial);
                 System.out.println("Resultado: " + potencia);
 
             default:
