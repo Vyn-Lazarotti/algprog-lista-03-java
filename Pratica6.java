@@ -12,13 +12,13 @@ public class Pratica6 {
         
         if (primeiroNumero > segundoNumero) { // Verifica se o primeiro número é maior do que o segundo número digitado
           System.out.println(primeiroNumero + " é maior do que " + segundoNumero);
-        } else if (primeiroNumero == segundoNumero) {
+        } else if (primeiroNumero == segundoNumero) { // Para caso o usuário digite o mesmo número duas vezes
             System.out.println(primeiroNumero + " é igual a " + segundoNumero);
         } else { // Para caso o segundo número seja maior do que o primeiro número digitado
           System.out.println(segundoNumero + " é maior do que " + primeiroNumero);
         }
         
-        System.out.println("Hora do sorteio!");
+        System.out.println("\nHora do sorteio!");
         int randomInt = (int)(Math.random() * 101); // Gera um número aleatório entre 0 e 100
         System.out.println("Número sorteado: " + randomInt); // Mostra qual foi o número gerado
         if (randomInt % 2 == 0) { // Verifica se o número sorteado é par ou ímpar
