@@ -48,9 +48,9 @@ public class Pratica5 {
 
             case 5:
                 System.out.println("Potenciação selecionada!");
-                System.out.println("Digite o primeiro número: ");
+                System.out.println("Digite o número: ");
                 numberOne = teclado.nextDouble();
-                conta = numberOne ^ (2);
+                conta = numberOne ^ 2;
                 System.out.println("Resultado: " + conta);
 
             default:
