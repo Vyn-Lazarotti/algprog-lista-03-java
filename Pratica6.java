@@ -19,7 +19,7 @@ public class Pratica6 {
         System.out.println("Hora do sorteio!");
         int randomInt = (int)(Math.random() * 101); // Gera um número aleatório entre 0 e 100
         System.out.println("Número sorteado: " + randomInt); // Mostra qual foi o número gerado
-        if (randomInt % 2 == 0) { // Verifica se o número é par ou ímpar
+        if (randomInt % 2 == 0) { // Verifica se o número sorteado é par ou ímpar
               System.out.println(randomInt + " é par");
             } else {
               System.out.println(randomInt + " é ímpar");
