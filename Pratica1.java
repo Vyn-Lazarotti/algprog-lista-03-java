@@ -4,7 +4,7 @@ public class Pratica1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Este é um programa que lê 3 números inteiros a partir do teclado e apresenta o maior número, o menor número e a média aritmética entre eles");
-        int numero1, numero2, numero3, media = (numero1 + numero2 + numero3) / 3;
+        int numero1, numero2, numero3;
 
         System.out.println("Digite o primeiro número inteiro: ");
         numero1 = teclado.nextInt();
@@ -38,6 +38,7 @@ public class Pratica1 {
             }
         }
 
+        int media = (numero1 + numero2 + numero3) / 3;
         System.out.println("A média entre os três números é " + media); //Esse código imprime na tela qual a média
         
         teclado.close();
