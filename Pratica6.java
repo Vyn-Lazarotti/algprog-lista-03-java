@@ -12,6 +12,8 @@ public class Pratica6 {
         
         if (primeiroNumero > segundoNumero) { // Verifica se o primeiro número é maior do que o segundo número digitado
           System.out.println(primeiroNumero + " é maior do que " + segundoNumero);
+        } else if (primeiroNumero == segundoNumero) {
+            System.out.println(primeiroNumero + " é igual a " + segundoNumero);
         } else { // Para caso o segundo número seja maior do que o primeiro número digitado
           System.out.println(segundoNumero + " é maior do que " + primeiroNumero);
         }
